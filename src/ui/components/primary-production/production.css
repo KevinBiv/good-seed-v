@@ -1,0 +1,44 @@
+.production-title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: #2CA831;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left-chevron, .right-chevron {
+    display: none;
+}
+
+@media(max-width: 925px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 0;
+    }
+}
+
+@media(max-width: 490px) {
+    .left-chevron, .right-chevron {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .beans, .cassava, .coffee {
+        display: none;
+    }
+}

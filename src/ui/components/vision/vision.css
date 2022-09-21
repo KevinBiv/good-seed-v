@@ -1,0 +1,99 @@
+.vision {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.vision-main-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 700;
+    font-size: 42px;
+    /* background-color: red; */
+}
+
+.vision-main-text p {
+    width: 90%;
+}
+
+.vision-picture {
+    width: 90%;
+}
+
+/* .vision-description {
+    text-align: center;
+} */
+
+.vision-description-title {
+    margin-bottom: 40px;
+    color: #0C7304;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.vision-description-text {
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+
+.vision-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #0C7304;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media(max-width: 1275px) {
+    .vision-description-title {
+        margin-bottom: 10px;
+    }
+
+    .vision-description-text {
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media(max-width: 1130px) {
+
+    /* .vision-description {
+        font-size: 14px;
+    } */
+
+    .vision-description-text {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .vision {
+        display: inline-block;
+    }
+
+    .vision-description-title {
+        margin-top: 0;
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .vision-description-text {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    /* .vision-main-text {
+        
+    } */
+}
+

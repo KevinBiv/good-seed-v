@@ -1,0 +1,27 @@
+.background-img {
+    width: 100%;
+    height: 687px;
+    background-image: url(../../resources/background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-picture-text {
+    position: absolute;
+    top: 45%;
+    transform: translate(-25%, -50%);
+    color: #fff;
+    font-size: 48px;
+    width: 50%;
+    left: 20%;
+}
+
+.call-to-action {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #BF581E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

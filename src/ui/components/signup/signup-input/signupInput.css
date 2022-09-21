@@ -1,0 +1,19 @@
+
+
+.input {
+    display: block;
+    min-width: 250px;
+    width: 50%;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.label {
+    font-size: 18px;
+    color: #fff;
+}

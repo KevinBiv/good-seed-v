@@ -1,0 +1,67 @@
+.register-seed-container {
+    padding: 0 80px 0;
+}
+
+.navbar-register-seed-component {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.navbar-component {
+    background-color: yellow;
+}
+
+.register-seed-left-wrapper {
+    /* background-color: red; */
+    width: 55%;
+}
+
+.seeds-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.seeds-list li button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.register-seed-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-seed-right-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-seed-right-wrapper label {
+    margin-bottom: 10px;
+}
+
+.register-seed-right-wrapper input {
+    width: 70%;
+    height: 45px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.register-seed-btn {
+    background-color: #BF581E;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+}

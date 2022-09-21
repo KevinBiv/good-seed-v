@@ -1,0 +1,37 @@
+.signup-container {
+    width: 100%;
+    background-color: #2D8846;
+    padding-bottom: 30px;
+}
+
+.navbar-signup-component {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.signup-bgImg-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.signup-background-img {
+    width: 100%;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.signup-btn {
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #BF581E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,23 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.services p {
+    color: #0C7304;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media(max-width: 768px) {
+    .services {
+        display: none;
+    }
+
+    .services-line-container {
+        display: none;
+    }
+}
+
